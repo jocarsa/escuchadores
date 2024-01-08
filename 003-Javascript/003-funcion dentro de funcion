@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <button>Pulsame</button>
+        <div id="destino"></div>
+        <script>
+            function pulsaBoton(){
+                console.log("Has pulsado el boton")
+            }
+            
+            let boton = document.querySelector("button")
+            boton.onclick = pulsaBoton
+        </script>
+    </body>
+</html>
